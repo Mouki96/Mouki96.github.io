@@ -20,6 +20,22 @@
 
 /* debut page principal*/
 
+
+
+
+input
+{
+
+  width: 450px;
+  padding: 5px 20px 12px 40px;
+  border: 1px solid yellowgreen;
+  margin-top: 40px;
+  border-radius: 8px 8px ;
+  margin-left: 33%;
+
+}
+
+
 .banniere{
 
     margin-bottom: 20rem;
@@ -190,20 +206,23 @@ img
 }
 
 
-.card1
+.card1 
 {
-   /* display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30ch,1fr));
     grid-gap: 2.5rem;
     margin-top:4rem;
     background: var(--picture);
-    padding-right: 3%;*/
+    padding-right: 3%;
 }
 
-.card2
-{
-    /*display: flex;
-    overflow-x: scroll;*/
+
+
+@media only screen and(max-width: 768px){
+    .card2{
+        display: flex;
+        overflow-x: scroll;
+    }
 }
 
 
@@ -291,7 +310,7 @@ list-style: none;
         position: fixed;
         top: 0;
         width: 100%;
-        padding: 11px 19px;
+        padding: 15px 23px;
         background: var(--header_bg);
         box-shadow: 0 6px 1rem rgb(17, 17, 17);
     }
@@ -407,5 +426,15 @@ list-style: none;
     #check:checked~label #cancel {
         left: 195px;
         opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    #Filt {
+        width: 45%;;
+        padding: 5px 5px 6px 5px;
+        border: 1px solid  yellow;
+        
     }
 }

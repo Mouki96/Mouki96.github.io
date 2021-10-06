@@ -7,23 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TheZOO | Acceuil</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/feuille.css">
 	<title>Page de recherche</title>
 </head>
 <body>
 
-	<header>
-        <nav id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-            <a href="#">TheZoo</a>
-            <a href="#">Services</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-        <span style="font-size:30px;cursor:
-pointer" onpointermove="openNav()">☰ 
-</span>
-    </header>
+	<input type="checkbox" name="" id="check">
+    <label for="check" class="btn-label">
+        <span id="btn">☰</span>
+        <span id="cancel">X</span>
+    </label>
+    <div class="sidebar">
+        <header> TheZOO
+        </header>
+        <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="search.html">Articles</a></li>
+            <li><a href="#">Catégories</a></li>
+            <li><a href="#">A Propos</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
 
     <input type="search" name="search" placeholder="Rechercher un animal" id="Filt"
     onkeyup="searchFilter()">
@@ -115,15 +120,7 @@ pointer" onpointermove="openNav()">☰
                <img src="images/baleine.jpg" alt="photo de baleine">
                <p>L'hyène est dangereux aggresive </p>
            </li>
-       </ul>
-
-    </div>
-
-
-
-    <div class="card2">
-
-       <ul class="picture" id="listener2" >
+      
            <li class="see" >
                 <h3>Lémur</h3>
                <img src="images/lemur.jpg" alt="photo de lemur">
@@ -211,9 +208,6 @@ pointer" onpointermove="openNav()">☰
        </ul>
 
     </div>
-
-
-
 
 
 
