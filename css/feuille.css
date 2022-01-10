@@ -4,7 +4,7 @@
 --sidebar: white;
 --sidebar_bg: #39a763;
 --header: white;
---header_bg: #1cbe29;
+--header_bg: #18AF36;
 --bar-btn_bg: #1cbe29;
 --bar-btn: white;
 --bar-cancel_bg: #39a763;
@@ -12,16 +12,13 @@
 --bar-cancel-hover_bg: #b34444;
 --Allcolor:#1cbe29;
 --span :#39a763;
---picture : lawngreen;
+--picture : #27CA47;
 --footer: gray;
 --footer_bg: linear-gradient(rgb(29, 26, 26), black);
 --footer_hr: linear-gradient(to right, orange, orange, orange, white, rgb(7, 151, 14), rgb(7, 151, 14));
 }
 
 /* debut page principal*/
-
-
-
 
 input
 {
@@ -32,6 +29,7 @@ input
   margin-top: 40px;
   border-radius: 8px 8px ;
   margin-left: 33%;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0.45);
 
 }
 
@@ -70,7 +68,7 @@ input
 {
     background-color: white;
     border-radius: 0.5rem;
-    /*box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0.45);*/
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0.45);
     box-shadow: 0  6px 1rem rgb(17, 17, 17);
     padding-bottom: 1rem;
     list-style: none;
@@ -165,9 +163,9 @@ footer hr
 footer 
 {
     list-style: none;
-    background: var(--footer_bg);
+    background-color: #27CA47;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 
@@ -197,14 +195,16 @@ img
     height: max(20rem);
 }
 
-/*end the page principal*/
-
-
-
 .banniere{
         margin-top: 50px;
 }
 
+/*end the page principal*/
+
+
+
+
+/*card*/
 
 .card1 
 {
@@ -214,9 +214,10 @@ img
     margin-top:4rem;
     background: var(--picture);
     padding-right: 3%;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0.45);
 }
 
-
+/*media query pour adaptation type d'affichage*/
 
 @media only screen and(max-width: 768px){
     .card2{
@@ -224,18 +225,6 @@ img
         overflow-x: scroll;
     }
 }
-
-
-
-
-
-
-
-
-
-/*fin page principal*/
-
-
 
 
 
@@ -434,7 +423,17 @@ list-style: none;
     #Filt {
         width: 45%;;
         padding: 5px 5px 6px 5px;
-        border: 1px solid  yellow;
-        
+        border: 1px solid  #18AF36 ;
+    
+    }
+
+    #btn{
+        margin-top: -2%;
+    }
+
+    .banniere img{
+        height: 1%
+        width: 1%;
+        border-radius: 4px 4px;
     }
 }

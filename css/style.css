@@ -199,6 +199,16 @@ img
     height: max(20rem);
 }
 
+
+/*page contact le formualire d'inscript*/
+
+.formulaire{
+    width: 50%;
+    height: 100px;
+}
+
+
+
 /*input
 {
 
@@ -253,5 +263,11 @@ img
     }
     .sidenav a {
         font-size: 18px;
+    }
+
+    .banniere{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 2px 3px 4px;
     }
 }
